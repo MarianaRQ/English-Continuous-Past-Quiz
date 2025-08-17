@@ -1,0 +1,28 @@
+.inicio {
+    background-image: url('../img/fondo-publico.png');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center; /* Centra horizontal */
+  align-items: center;     /* Centra vertical */
+  height: 200px;           /* ajusta al tamaño que necesites */
+}
+
+.logo {
+  height: 260px;
+  width: 280px;
+}
+
+.registro {
+  justify-content: center; /* Centra horizontal */
+  align-items: center;     /* Centra vertical */
+  background-color: #0B3D91;
+  color: white;
+  text-align: center;
+}
