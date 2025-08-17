@@ -8,7 +8,7 @@ include "db.php";
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Registro</title>
+    <title>Register</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -32,8 +32,20 @@ include "db.php";
     </div>
 
     <!-- Audios -->
-    <audio id="bgMusic" src="music/sonido1.mp3" loop></audio>
-    <audio id="effectSound" src="music/sonido2.mp3" loop></audio>
+   <audio id="effectSound" src="music/sonido2.mp3" autoplay muted loop></audio>
+
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+    const effectSound = document.getElementById("effectSound");
+
+    // Desmutear en el primer clic para que ya suene
+    document.body.addEventListener("click", () => {
+        effectSound.muted = false;
+        effectSound.play();
+    }, { once: true });
+});
+</script>
+
 
 
 </body>
