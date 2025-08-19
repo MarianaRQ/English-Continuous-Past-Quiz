@@ -15,7 +15,7 @@ include "db.php";
 
 <body class="inicio d-flex justify-content-center align-items-center vh-100">
 
-    <div class="container text-center">
+    <div class="container text-center pregunta">
         <!-- Logo -->
         <div class="mb-4">
             <img src="img/logo.png" alt="logo" class="logo img-fluid">
