@@ -16,10 +16,10 @@ $respuesta = isset($_POST['respuesta']) ? $_POST['respuesta'] : 0;
 // Evaluar respuesta
 if($respuesta == $respuesta_correcta) {
     $conn->query("UPDATE participantes SET puntaje = puntaje + 10 WHERE id = $jugador_id");
-    $mensaje = "¡Correcto! Sumaste 10 puntos 🎉";
+    $mensaje = "¡Correct! You earned 10 points 🎉";
     $tipo = "success";
 } else {
-    $mensaje = "Incorrecto 😢";
+    $mensaje = "Incorrect 😢";
     $tipo = "danger";
 }
 
@@ -77,11 +77,11 @@ if($_SESSION["contador"] >= 10){
         </h3>
 
         <?php if(!$finalizado): ?>
-            <a href="juego.php?jugador_id=<?php echo $jugador_id; ?>" class="btn btn-primary">Siguiente Pregunta</a>
-            <a href="ranking.php" class="btn btn-secondary">Ver Ranking</a>
+            <a href="juego.php?jugador_id=<?php echo $jugador_id; ?>" class="btn btn-primary">Next question</a>
+            <a href="ranking.php" class="btn btn-secondary">View Ranking</a>
         <?php else: ?>
             <div class="alert alert-success mt-3">
-                ¡Has respondido las 10 preguntas! 🎯 Serás enviado al ranking...
+                ¡You have answered the 10 questions! 🎯 You will be sent to the ranking...
             </div>
         <?php endif; ?>
     </div>

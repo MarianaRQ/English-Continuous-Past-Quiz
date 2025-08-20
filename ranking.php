@@ -17,8 +17,8 @@ $resultado = $conn->query("SELECT nombre, puntaje FROM participantes ORDER BY pu
             <table class="table-responsive table">
                 <thead>
                     <tr>
-                        <th>Jugador</th>
-                        <th>Puntaje</th>
+                        <th>Player</th>
+                        <th>Points</th>
                     </tr>
                 </thead>
                 <tbody> <?php while ($fila = $resultado->fetch_assoc()): ?>

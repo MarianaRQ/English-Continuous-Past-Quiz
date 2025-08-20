@@ -23,10 +23,10 @@ include "db.php";
 
         <!-- Registro -->
         <div class="registro mx-auto p-5 border rounded shadow col-md-6 col-lg-4">
-            <h2 class="mb-3">Ingresar al juego</h2>
+            <h2 class="mb-3">Enter the game</h2>
             <form action="juego.php" method="post">
-                <input type="text" name="nombre" class="form-control mb-3" placeholder="Tu nombre" required>
-                <button onclick="startGame()" type="submit" class="btn btn-primary w-100 mb-5">Iniciar Juego</button>
+                <input type="text" name="nombre" class="form-control mb-3" placeholder="Yor name" required>
+                <button onclick="startGame()" type="submit" class="btn btn-primary w-100 mb-5">Start</button>
             </form>
         </div>
     </div>

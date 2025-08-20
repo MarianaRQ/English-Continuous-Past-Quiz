@@ -54,7 +54,7 @@ $pregunta = $conn->query("SELECT * FROM preguntas WHERE id NOT IN ($ids_vistas) 
 
 <body class="juego">
     <div class="container mt-5 preguntas">
-        <h5 class="numero mt-4 mb-2">Pregunta <?php echo $_SESSION["contador"] + 1; ?> de 10</h5>
+        <h5 class="numero mt-4 mb-2">Question <?php echo $_SESSION["contador"] + 1; ?> of 10</h5>
 
         <div class="imagen container contenter-center mt-4">
             <img src="img/caricatura.png" alt="" class=" img-fluid mb-4">
@@ -80,10 +80,10 @@ $pregunta = $conn->query("SELECT * FROM preguntas WHERE id NOT IN ($ids_vistas) 
 
             </div>
 
-            <button type="submit" class="btn btn-info mt-3">Responder</button>
+            <button type="submit" class="btn btn-info mt-3">Answer</button>
         </form>
         <p class="tiempo mt-4">
-            ⏳ Tiempo restante:
+            ⏳ Remaining time:
             <span id="timer" class="circle-timer ms-3 mt-3">15</span>
         </p>
     </div>
