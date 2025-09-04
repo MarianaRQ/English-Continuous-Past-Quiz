@@ -14,6 +14,7 @@ Está desarrollado con:
 
 -Base de datos: MySQL
 
+
 🎮 Características
 
 Interfaz interactiva y atractiva.
@@ -26,6 +27,7 @@ Validación de respuestas y retroalimentación inmediata.
 
 Fácil de personalizar (puedes agregar más preguntas desde la base de datos).
 
+
 🛠️ Tecnologías usadas
 
 * HTML5 → Estructura del juego.
@@ -37,6 +39,7 @@ Fácil de personalizar (puedes agregar más preguntas desde la base de datos).
 * PHP 8+ → Gestión del backend.
 
 * MySQL → Almacenamiento de preguntas y usuarios.
+  
 
 ⚙️ Instalación y configuración
 
@@ -67,6 +70,7 @@ https://english-game.kesug.com
 
 http://localhost/english-quiz-game
 
+
 🚀 Uso
 
 Ingresa tu nombre en la pantalla de inicio.
@@ -80,20 +84,35 @@ Intenta llegar a la meta y conviértete en un Billionaire del inglés.
 📦 english-quiz-game
 
  ┣ 📂 src
+ 
  ┃ ┣ 📂 app
+ 
  ┃ ┃ ┣ dashboard.php
+ 
  ┃ ┃ ┗ rutas.php
+ 
  ┃ ┣ 📂 database
+ 
  ┃ ┃ ┣ consultas/
+ 
  ┃ ┃ ┗ database.php
+ 
  ┃ ┣ 📂 static
+ 
  ┃ ┃ ┣ css/
+ 
  ┃ ┃ ┗ js/
+ 
  ┃ ┗ 📂 templates
+ 
  ┃     ┗ index.html
+ 
  ┣ 📜 app.php
+ 
  ┣ 📜 README.md
+ 
  ┗ 📜 quiz.sql
+
 
 🤝 Contribución
 
@@ -108,6 +127,7 @@ Realiza tus cambios y haz commit.
 Haz push a la rama (git push origin feature-nueva).
 
 Abre un Pull Request.
+
 
 📄 Licencia
 
