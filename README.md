@@ -1,5 +1,5 @@
 🧠 English Quiz Game - Billionaire Style
-![Portada del Juego](portada.png)
+![Portada del Juego](portada.jpeg)
 
 📌 Descripción
 
