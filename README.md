@@ -64,6 +64,7 @@ Iniciar tu servidor local (Apache + MySQL).
 Acceder al juego desde:
 
 https://english-game.kesug.com
+
 http://localhost/english-quiz-game
 
 🚀 Uso
