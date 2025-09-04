@@ -8,11 +8,11 @@ El objetivo es responder correctamente preguntas de opción múltiple en inglés
 
 Está desarrollado con:
 
-Frontend: HTML, CSS, JavaScript
+-Frontend: HTML, CSS, JavaScript
 
-Backend: PHP
+-Backend: PHP
 
-Base de datos: MySQL
+-Base de datos: MySQL
 
 🎮 Características
 
@@ -28,15 +28,15 @@ Fácil de personalizar (puedes agregar más preguntas desde la base de datos).
 
 🛠️ Tecnologías usadas
 
-HTML5 → Estructura del juego.
+* HTML5 → Estructura del juego.
 
-CSS3 → Estilos y diseño responsivo.
+* CSS3 → Estilos y diseño responsivo.
 
-JavaScript (ES6) → Lógica en el frontend e interacciones.
+* JavaScript (ES6) → Lógica en el frontend e interacciones.
 
-PHP 8+ → Gestión del backend.
+* PHP 8+ → Gestión del backend.
 
-MySQL → Almacenamiento de preguntas y usuarios.
+* MySQL → Almacenamiento de preguntas y usuarios.
 
 ⚙️ Instalación y configuración
 
@@ -74,7 +74,9 @@ Responde las preguntas de opción múltiple.
 Intenta llegar a la meta y conviértete en un Billionaire del inglés.
 
 📂 Estructura del proyecto
+
 📦 english-quiz-game
+
  ┣ 📂 src
  ┃ ┣ 📂 app
  ┃ ┃ ┣ dashboard.php
